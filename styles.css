@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/*general customs*/
+* {
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+html {
+    background-color: #00000093;
+}
+html, body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: #000000BB;
+    background: repeating-linear-gradient(
+    45deg,
+    #000000BB,
+    #00000088 30px
+);
+}
+h1 {
+    color: gold;
+    font-family: cursive;
+}
+.tit {
+    margin: 0%;
+    padding: 1em;
+}
+.pic{
+    border-radius: 60%;
+}
+/*nav customs*/
+.nav {
+    text-align:center;
+    font-size: 1.5em;
+}
+.nav ul {
+    margin: 0%;
+    padding-bottom: 1%;
+}
+.nav li {
+    display: inline;
+    padding: 0 2%;
+}
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: gold;
+    font-family: cursive;
+}
+.nav a:hover {
+    background-color: #00000033;
+}
+
+/*title customs*/
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+.content{
+    text-align: center;
+    padding: 0 6em;
+}
+/* footer shit*/
+.contact li{
+    display: inline;
+}
+.contact h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 1.7em;
+}
+/* h3{
+    font-weight: normal;
+    color: gold;
+} */
